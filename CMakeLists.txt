@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(TimeEstimationApp)
+add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-system sfml-window)
+target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_17)
