@@ -3,5 +3,10 @@
   "directory": "/home/user/Programming/TimeEstimationApp/build",
   "command": "/usr/bin/c++   -g -std=c++20 -o CMakeFiles/TimeEstimationApp.dir/main.cpp.o -c /home/user/Programming/TimeEstimationApp/main.cpp",
   "file": "/home/user/Programming/TimeEstimationApp/main.cpp"
+},
+{
+  "directory": "/home/user/Programming/TimeEstimationApp/build",
+  "command": "/usr/bin/c++   -g -std=c++20 -o CMakeFiles/util.dir/lib/util.cpp.o -c /home/user/Programming/TimeEstimationApp/lib/util.cpp",
+  "file": "/home/user/Programming/TimeEstimationApp/lib/util.cpp"
 }
 ]

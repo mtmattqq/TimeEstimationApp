@@ -129,6 +129,43 @@ TimeEstimationApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TimeEstimationApp.dir/build.make CMakeFiles/TimeEstimationApp.dir/build
 .PHONY : TimeEstimationApp/fast
 
+#=============================================================================
+# Target rules for targets named util
+
+# Build rule for target.
+util: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 util
+.PHONY : util
+
+# fast build rule for target.
+util/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/util.dir/build.make CMakeFiles/util.dir/build
+.PHONY : util/fast
+
+lib/util.o: lib/util.cpp.o
+.PHONY : lib/util.o
+
+# target to build an object file
+lib/util.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/util.dir/build.make CMakeFiles/util.dir/lib/util.cpp.o
+.PHONY : lib/util.cpp.o
+
+lib/util.i: lib/util.cpp.i
+.PHONY : lib/util.i
+
+# target to preprocess a source file
+lib/util.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/util.dir/build.make CMakeFiles/util.dir/lib/util.cpp.i
+.PHONY : lib/util.cpp.i
+
+lib/util.s: lib/util.cpp.s
+.PHONY : lib/util.s
+
+# target to generate assembly for a file
+lib/util.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/util.dir/build.make CMakeFiles/util.dir/lib/util.cpp.s
+.PHONY : lib/util.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +199,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... TimeEstimationApp"
+	@echo "... util"
+	@echo "... lib/util.o"
+	@echo "... lib/util.i"
+	@echo "... lib/util.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
