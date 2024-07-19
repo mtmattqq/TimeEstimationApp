@@ -92,6 +92,7 @@ TimeEstimationApp_EXTERNAL_OBJECTS =
 
 TimeEstimationApp: CMakeFiles/TimeEstimationApp.dir/main.cpp.o
 TimeEstimationApp: CMakeFiles/TimeEstimationApp.dir/build.make
+TimeEstimationApp: libutil.a
 TimeEstimationApp: CMakeFiles/TimeEstimationApp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Programming/TimeEstimationApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TimeEstimationApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TimeEstimationApp.dir/link.txt --verbose=$(VERBOSE)

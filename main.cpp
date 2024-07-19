@@ -3,8 +3,11 @@
 #include <SFML/Window/Event.hpp>
 #include <SFML/Window/Keyboard.hpp>
 #include <iostream>
+#include "lib/util.hpp"
 
 int main() {
+
+
     sf::RenderWindow window(
         sf::VideoMode(800, 600), 
         "Time Estimation"

@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/TimeEstimationApp.dir/main.cpp.o -o TimeEstimationApp  -lsfml-graphics -lsfml-system -lsfml-window 
+/usr/bin/c++ -g CMakeFiles/TimeEstimationApp.dir/main.cpp.o -o TimeEstimationApp  -lsfml-graphics -lsfml-system -lsfml-window libutil.a 

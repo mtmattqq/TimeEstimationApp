@@ -8,5 +8,5 @@ project(TimeEstimationApp)
 add_executable(${PROJECT_NAME} main.cpp)
 add_library(util lib/util.cpp)
 
-target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-system sfml-window)
+target_link_libraries(${PROJECT_NAME} PRIVATE sfml-graphics sfml-system sfml-window util)
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
