@@ -31,3 +31,8 @@
 *.out
 *.app
 TimeEstimationApp
+
+# CMake
+
+.cache
+build/.cmake
